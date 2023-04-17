@@ -24,13 +24,11 @@ int main() {
 	printf("Distance: ");
 	scanf("%d", &distance);
 	
-	if(distance > 30)
-	{
+	if(distance > 30) {
 		sum = (30 * 50) + ((distance - 30) * 40);
 	}
 	
-	else
-	{
+	else {
 		sum = distance * 50;	
 	}
 	
